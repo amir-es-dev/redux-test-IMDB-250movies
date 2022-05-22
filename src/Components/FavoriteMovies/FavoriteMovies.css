@@ -1,0 +1,29 @@
+.favTableBox {
+  display: flex;
+  justify-content: center;
+  margin: 0 9%;
+  background-color: white;
+}
+
+.favTableBox img {
+  width: 80px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.favTableBox th,
+.favTableBox td {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.favTableBox tbody td:nth-of-type(1),
+.favTableBox tbody td:nth-of-type(2),
+.favTableBox thead th:nth-of-type(3) {
+  text-align: left;
+}
+
+.bi-star-fill {
+  margin-right: 0.3rem;
+}

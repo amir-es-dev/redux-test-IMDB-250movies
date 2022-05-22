@@ -1,0 +1,21 @@
+.home a {
+  text-decoration: none;
+  margin: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(253, 29, 29, 1) 0%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: rgb(9, 1, 128);
+  padding: 0.5rem 0.8rem;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+.home a:hover {
+  color: white;
+}
