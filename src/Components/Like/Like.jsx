@@ -13,7 +13,7 @@ const Like = ({ item, list }) => {
     newlist[index] = { ...item };
     newlist[index].like = !item.like;
     dispatch(getList(newlist));
-    item.like ? dispatch(removeMovie(item)) : dispatch(addMovie(item));
+    item.like ? dispatch(removeMovie(item.id)) : dispatch(addMovie(item));
   };
 
   return (
